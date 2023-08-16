@@ -1,0 +1,19 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{4}{c}}
+\hline\hline
+                    &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}\\
+                    &\multicolumn{1}{c}{log\_trans\_per\_month\_FHSZ}&\multicolumn{1}{c}{log\_trans\_per\_month\_FHSZ}&\multicolumn{1}{c}{log\_trans\_per\_month\_FHSZ}&\multicolumn{1}{c}{log\_trans\_per\_month\_FHSZ}\\
+\hline
+post                &       0.456\sym{**} &       0.379\sym{***}&       0.283         &       0.189\sym{*}  \\
+                    &     (0.163)         &    (0.0702)         &     (0.154)         &    (0.0766)         \\
+[1em]
+Constant            &       2.392\sym{***}&       0.772\sym{***}&       0.665\sym{***}&       1.372\sym{***}\\
+                    &    (0.0774)         &    (0.0376)         &    (0.0841)         &    (0.0405)         \\
+\hline
+Observations        &        7523         &         774         &         703         &        2429         \\
+\hline\hline
+\multicolumn{5}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{5}{l}{\footnotesize \sym{*} \(p<0.05\), \sym{**} \(p<0.01\), \sym{***} \(p<0.001\)}\\
+\end{tabular}
+}
