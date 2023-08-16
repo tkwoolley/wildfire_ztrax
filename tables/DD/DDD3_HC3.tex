@@ -1,0 +1,35 @@
+\begin{table}[htbp]\centering
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\caption{Triple Difference Estimates\label{tabl}}
+\begin{tabular}{l*{3}{c}}
+\hline\hline
+                    &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}\\
+                    &\multicolumn{1}{c}{Sale Price}&\multicolumn{1}{c}{Sale Price}&\multicolumn{1}{c}{Sale Price}\\
+\hline
+post                &      -0.229\sym{**} &     -0.0807\sym{***}&      -0.218\sym{**} \\
+                    &    (0.0757)         &    (0.0159)         &    (0.0699)         \\
+[1em]
+close               &     -0.0715\sym{***}&      0.0573\sym{**} &      -0.105\sym{***}\\
+                    &    (0.0174)         &    (0.0198)         &    (0.0171)         \\
+[1em]
+post x close        &      0.0577\sym{*}  &     -0.0125         &      0.0941\sym{***}\\
+                    &    (0.0252)         &    (0.0203)         &   (0.00687)         \\
+[1em]
+post x close x very high FHSZ&      -0.188\sym{***}&      -0.181\sym{***}&      -0.195\sym{***}\\
+                    &   (0.00978)         &    (0.0204)         &   (0.00626)         \\
+[1em]
+post x very high FHSZ&       0.106         &      0.0821\sym{***}&       0.114\sym{**} \\
+                    &    (0.0566)         &    (0.0111)         &    (0.0475)         \\
+[1em]
+very high FHSZ      &     -0.0571         &      0.0810\sym{***}&     -0.0500         \\
+                    &    (0.0351)         &   (0.00807)         &    (0.0341)         \\
+[1em]
+close x very high FHSZ&       0.158\sym{***}&      0.0342\sym{*}  &       0.167\sym{***}\\
+                    &    (0.0178)         &    (0.0173)         &    (0.0236)         \\
+\hline
+Observations        &       25297         &       25297         &       25297         \\
+\hline\hline
+\multicolumn{4}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{4}{l}{\footnotesize \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\)}\\
+\end{tabular}
+\end{table}
