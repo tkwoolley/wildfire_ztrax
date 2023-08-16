@@ -1,0 +1,33 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{1}{c}}
+\hline\hline
+                    &\multicolumn{1}{c}{log sale price}\\
+\hline
+lot size (sq.ft)    & 0.000000404         \\
+                    &(0.000000220)         \\
+[1em]
+year built          &     0.00167         \\
+                    &  (0.000975)         \\
+[1em]
+\# bedrooms         &      0.0529\sym{***}\\
+                    &   (0.00758)         \\
+[1em]
+\# baths            &       0.164\sym{***}\\
+                    &    (0.0106)         \\
+[1em]
+building quality    &      -0.169\sym{***}\\
+                    &    (0.0300)         \\
+[1em]
+\# stories          &    -0.00402         \\
+                    &    (0.0179)         \\
+[1em]
+FHSZ level          &      0.0230\sym{**} \\
+                    &   (0.00521)         \\
+\hline
+Observations        &        3204         \\
+\hline\hline
+\multicolumn{2}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{2}{l}{\footnotesize \sym{*} \(p<0.05\), \sym{**} \(p<0.01\), \sym{***} \(p<0.001\)}\\
+\end{tabular}
+}
