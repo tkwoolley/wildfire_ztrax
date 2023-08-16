@@ -1,0 +1,59 @@
+\begin{table}[htbp]\centering
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\caption{Triple Difference Estimates\label{tabl}}
+\begin{tabular}{l*{3}{c}}
+\hline\hline
+                    &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}\\
+                    &\multicolumn{1}{c}{Sale Price}&\multicolumn{1}{c}{Sale Price}&\multicolumn{1}{c}{Sale Price}\\
+\hline
+post                &     -0.0807\sym{***}&     -0.0822\sym{***}&     -0.0832\sym{***}\\
+                    &    (0.0159)         &    (0.0154)         &    (0.0170)         \\
+[1em]
+close               &      0.0573\sym{**} &      0.0573\sym{**} &      0.0502\sym{**} \\
+                    &    (0.0198)         &    (0.0199)         &    (0.0204)         \\
+[1em]
+post x close        &     -0.0125         &      0.0183         &      0.0199         \\
+                    &    (0.0203)         &    (0.0176)         &    (0.0203)         \\
+[1em]
+post x close x very high FHSZ&      -0.181\sym{***}&                     &                     \\
+                    &    (0.0204)         &                     &                     \\
+[1em]
+post x very high FHSZ&      0.0821\sym{***}&                     &                     \\
+                    &    (0.0111)         &                     &                     \\
+[1em]
+very high FHSZ      &      0.0810\sym{***}&                     &                     \\
+                    &   (0.00807)         &                     &                     \\
+[1em]
+close x very high FHSZ&      0.0342\sym{*}  &                     &                     \\
+                    &    (0.0173)         &                     &                     \\
+[1em]
+post x close x high FHSZ&                     &      -0.230\sym{***}&                     \\
+                    &                     &    (0.0212)         &                     \\
+[1em]
+post x high FHSZ    &                     &      0.0804\sym{***}&                     \\
+                    &                     &   (0.00811)         &                     \\
+[1em]
+high FHSZ           &                     &      0.0677\sym{***}&                     \\
+                    &                     &   (0.00758)         &                     \\
+[1em]
+close x high FHSZ   &                     &      0.0441\sym{**} &                     \\
+                    &                     &    (0.0186)         &                     \\
+[1em]
+post x close x FHSZ &                     &                     &      -0.222\sym{***}\\
+                    &                     &                     &    (0.0249)         \\
+[1em]
+post x FHSZ         &                     &                     &      0.0671\sym{***}\\
+                    &                     &                     &    (0.0148)         \\
+[1em]
+FHSZ                &                     &                     &      0.0407\sym{*}  \\
+                    &                     &                     &    (0.0180)         \\
+[1em]
+close x FHSZ        &                     &                     &      0.0804\sym{**} \\
+                    &                     &                     &    (0.0298)         \\
+\hline
+Observations        &       25297         &       25297         &       25297         \\
+\hline\hline
+\multicolumn{4}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{4}{l}{\footnotesize \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\)}\\
+\end{tabular}
+\end{table}

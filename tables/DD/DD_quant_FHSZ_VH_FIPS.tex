@@ -1,0 +1,28 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{2}{c}}
+\hline\hline
+                    &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}\\
+                    &\multicolumn{1}{c}{log sales per month}&\multicolumn{1}{c}{log sales per month}\\
+\hline
+post x very high FHSZ&       0.734\sym{**} &                     \\
+                    &     (0.228)         &                     \\
+[1em]
+very high FHSZ      &      -0.850\sym{*}  &                     \\
+                    &     (0.411)         &                     \\
+[1em]
+post                &      -0.256\sym{**} &      0.0717         \\
+                    &    (0.0819)         &     (0.128)         \\
+[1em]
+post x close        &                     &       0.144         \\
+                    &                     &     (0.181)         \\
+[1em]
+close               &                     &      -2.239\sym{***}\\
+                    &                     &     (0.247)         \\
+\hline
+Observations        &        3218         &        1897         \\
+\hline\hline
+\multicolumn{3}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{3}{l}{\footnotesize \sym{*} \(p<0.05\), \sym{**} \(p<0.01\), \sym{***} \(p<0.001\)}\\
+\end{tabular}
+}

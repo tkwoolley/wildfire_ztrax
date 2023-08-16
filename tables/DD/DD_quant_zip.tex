@@ -1,0 +1,28 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{4}{c}}
+\hline\hline
+                    &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}\\
+                    &\multicolumn{1}{c}{log sales per month}&\multicolumn{1}{c}{log sales per month}&\multicolumn{1}{c}{log sales per month}&\multicolumn{1}{c}{log sales per month}\\
+\hline
+post\_not\_FHSZ       &      0.0497         &      0.0217         &                     &                     \\
+                    &    (0.0449)         &    (0.0736)         &                     &                     \\
+[1em]
+non-FHSZ            &       1.407\sym{***}&       1.411\sym{***}&                     &                     \\
+                    &    (0.0320)         &     (0.169)         &                     &                     \\
+[1em]
+post                &      0.0769\sym{*}  &       0.374\sym{***}&      0.0363         &       0.318\sym{*}  \\
+                    &    (0.0362)         &    (0.0882)         &    (0.0477)         &     (0.122)         \\
+[1em]
+post\_not\_FHSZ\_VH    &                     &                     &      0.0949         &      0.0799         \\
+                    &                     &                     &    (0.0549)         &    (0.0903)         \\
+[1em]
+not very-high-FHSZ  &                     &                     &       1.118\sym{***}&       1.225\sym{***}\\
+                    &                     &                     &    (0.0392)         &     (0.220)         \\
+\hline
+Observations        &       12460         &       11552         &       10574         &       10025         \\
+\hline\hline
+\multicolumn{5}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{5}{l}{\footnotesize \sym{*} \(p<0.05\), \sym{**} \(p<0.01\), \sym{***} \(p<0.001\)}\\
+\end{tabular}
+}

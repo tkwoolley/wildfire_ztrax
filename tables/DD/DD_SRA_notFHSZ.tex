@@ -1,0 +1,29 @@
+\begin{table}[htbp]\centering
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\caption{Triple Difference Estimates\label{tabl}}
+\begin{tabular}{l*{2}{c}}
+\hline\hline
+                    &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}\\
+                    &\multicolumn{1}{c}{Sale Price}&\multicolumn{1}{c}{Sale Price}\\
+\hline
+post\_SRA\_city       &     -0.0360\sym{**} &     -0.0405         \\
+                    &    (0.0167)         &    (0.0303)         \\
+[1em]
+SRA\_city            &      -0.102\sym{*}  &      -0.107         \\
+                    &    (0.0586)         &    (0.0866)         \\
+[1em]
+post                &     -0.0508\sym{**} &      -0.106\sym{*}  \\
+                    &    (0.0238)         &    (0.0563)         \\
+[1em]
+post x close        &     -0.0929\sym{*}  &      0.0641\sym{*}  \\
+                    &    (0.0515)         &    (0.0311)         \\
+[1em]
+close               &       0.105\sym{***}&      0.0656\sym{***}\\
+                    &    (0.0298)         &    (0.0220)         \\
+\hline
+Observations        &      182188         &       66468         \\
+\hline\hline
+\multicolumn{3}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{3}{l}{\footnotesize \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\)}\\
+\end{tabular}
+\end{table}
